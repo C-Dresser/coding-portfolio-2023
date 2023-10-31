@@ -1,0 +1,102 @@
+<!--
+    
+    
+    I had some issues with GitHub and had to redo my repository so there is no commit history, however i have commented all of my commits throughout the HTML and CSS, hopefully that helps!!!!
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Created html framework, added title and link to css-->    
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<!--added header with h1 and created a ul for the nav bar-->
+<!--added links to the lis-->
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About</a>
+                </li>       
+                <li>
+                    <a href="#work">Work</a>
+                </li> 
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>   
+                <li>
+                    <!--I don't have a resume yet so this currnelty serves no function-->
+                    <a href="">Resume</a>
+                </li> 
+            </ul>
+        </nav>
+    </header>
+    <!--added section for hero image under nav bar-->
+    <section class="hero"></section>
+    <main>
+        <!--added about section with placeholder text -->
+        <section id="about">
+            <h2>About</h2>
+            <div>
+                <!--added photo of me and made it a class for easy CSS styling-->
+                <img class="selfie" width="200" src="./Images/selfie.jpg" alt="selfie"/>
+                <p>This website is an evolving representation of my HTML and CSS abities. Check out the link(s) below to see some of my other work!</p>
+            </div>
+            <!--added additonal sections for the image links-->
+            <!--added placeholder images and alt text-->
+            <!--added images to cards and a working link to the last project-->
+        </section>
+        <section id="work">
+            <h2>Work</h2>
+            <div class="portfolio-items">
+                <article>
+                    <h3>Work 1</h3>
+                    <a href="https://c-dresser.github.io/SEO-optimization-project/">
+                        <img src="./Images/seo-project-image.png" alt="SEO optimization preview image"/>
+                    </a>
+                </article>
+                <article>
+                    <h3>Work 2</h3>
+                    <a href="">
+                        <img src="./Images/coming-soon-1.jpg" alt="Coming Soon"/>
+                    </a>
+                </article>
+                <article>
+                    <h3>Work 3</h3>
+                    <a href="">
+                        <img src="./Images/under-construction-1.jpg" alt="Under Construction"/>
+                    </a>
+                </article>
+            </div>
+            
+        </section>
+        <!--added contact section with link framework-->
+        <!--added GitHub link-->
+        <section class= "contacts" id="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li>
+                    <!--Once I have more coding experience and a larger portfolio I will update my LinkedIn to reflect as such and create the link here.-->
+                    <a href="">LinkedIn</a>
+                </li>
+                <br>
+                <li>
+                    <a href="https://github.com/C-Dresser">GitHub</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <!--added footer-->
+    <footer>
+        <p>
+        This site was made..... barely.</p>
+        </p>
+    </footer>
+</body>
+</html>
